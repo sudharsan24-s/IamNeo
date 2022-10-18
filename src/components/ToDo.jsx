@@ -5,7 +5,7 @@ import {
   faCircleCheck, faPen, faTrashCan
 } from '@fortawesome/free-solid-svg-icons'
 
-const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
+const ToDofn = ({ toDo, markDone, setUpdateData, deleteTask }) => {
   return(
     <>
       {toDo && toDo
@@ -52,4 +52,4 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
   )
 }
 
-export default ToDo;
+export default ToDofn;
