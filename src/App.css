@@ -22,11 +22,6 @@ body {
   float: left;
   align-items: center;
 }
-.taskbag:hover{
-  box-shadow: 10px 10px #db5622;
-  transition: 0.3s;
-  cursor: pointer;
-}
 
 .taskBg div {
   display: flex;
