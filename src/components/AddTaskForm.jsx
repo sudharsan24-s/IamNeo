@@ -1,4 +1,4 @@
-const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
+const AddTask = ({ newTask, setNewTask, addTask }) => {
   return(
     <>
       {/* Add Task */}
@@ -22,4 +22,4 @@ const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
   )
 }
 
-export default AddTaskForm;
+export default AddTask;
