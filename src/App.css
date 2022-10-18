@@ -12,15 +12,20 @@ body {
 
 .taskBg {
   background-color: rgb(238, 160, 241);
-  border-radius: 3px;
-  margin-bottom: 10px;
-  margin: 10px;
-  width:190px;
-  height: 100px;
+  border-radius: 6px;
+  margin: 10px 20px 50px 20px;
+  padding: 50px 140px 50px 20px;
   text-align: left;
-  float: left;
+  font-weight: bold;
   font-size: 25px;
   position: relative;
+  float: left;
+  align-items: center;
+}
+.taskbag:hover{
+  box-shadow: 10px 10px #db5622;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .taskBg div {
@@ -31,19 +36,19 @@ body {
 .taskNumber {
   color: rgb(8, 8, 7);
   border: 2px solid rgb(25, 24, 24);
-  border-radius: 100%;
-  width: 25px;
-  margin-left: 5px;
+  border-radius: 5px;
+  width: 26px;
   height: 26px;
   display: flex;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   margin-right: 8px;
   align-items: center;
   justify-content: center;
 }
 
 .taskBg .taskText {
+  font-size:20px;
   flex: 1;
 }
 
@@ -53,18 +58,18 @@ body {
 }
 
 .taskBg .iconsWrap {
-  position: center;
-  padding-top:80px;
-  padding-left: 70px;
+  position: absolute;
+  top:50%;
   transform: translateY(-50%);
-  right: 15px;
+  right:15px;
+  padding-top: 60px;
   width: auto;
-  font-size: large;
+  display: inline-block;
 }
 
 .taskBg .iconsWrap span {
-  display: absolute;
-  margin: 0px 10px 0px 10px;
+  display: inline-block;
+  margin: 0px 10px 0 10px;
   cursor: pointer;
   color: #ecfa6c;
   transition: 0.3 ease;
@@ -75,5 +80,5 @@ body {
 }
 
 .mr-20 {
-  margin-right: 40px;
+  margin-right: 20px;
 }
