@@ -1,7 +1,7 @@
 import {useState} from 'react';
-import AddTaskForm from './components/AddTaskForm.jsx';
-import UpdateForm from './components/UpdateForm.jsx';
-import ToDo from './components/ToDo.jsx';
+import AddTask from './components/AddTaskForm.jsx';
+import Update from './components/UpdateForm.jsx';
+import ToDofn from './components/ToDo.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -79,15 +79,15 @@ function App() {
     <h2>I AM NEO</h2>
     <br /><br />
 
-    {updateData && updateData ? (
-      <UpdateForm 
+    {updateData ? (
+      <Update 
         updateData={updateData}
         changeTask={changeTask}
         updateTask={updateTask}
         cancelUpdate={cancelUpdate}
       />
     ) : (
-      <AddTaskForm 
+      <AddTask 
         newTask={newTask}
         setNewTask={setNewTask}
         addTask={addTask}
@@ -98,7 +98,7 @@ function App() {
 
     {toDo && toDo.length ? '' : 'No Tasks...'}
 
-    <ToDo
+    <ToDofn
       toDo={toDo}
       markDone={markDone}
       setUpdateData={setUpdateData}
