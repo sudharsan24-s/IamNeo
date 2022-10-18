@@ -1,4 +1,4 @@
-const UpdateForm = ({ updateData, changeTask, updateTask, cancelUpdate }) => {
+const Update = ({ updateData, changeTask, updateTask, cancelUpdate }) => {
   return(
     <>
       {/* Update Task */}
@@ -26,4 +26,4 @@ const UpdateForm = ({ updateData, changeTask, updateTask, cancelUpdate }) => {
   )
 }
 
-export default UpdateForm;
+export default Update;
